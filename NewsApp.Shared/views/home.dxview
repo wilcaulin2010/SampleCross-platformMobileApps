@@ -1,0 +1,105 @@
+<div data-options="dxView : { name: 'home', title: '' } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div data-bind="dxScrollView: { }">
+            <div class="home-back">
+                <img src="images/home.png" style="max-width:100%;height:0 auto;" />
+            </div>
+            <div id="gtwo-line">
+            </div>
+
+            <div class="h2-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="standard-block">LATEST NEWS</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>       
+                <div class="yel">
+                    <img src="images/yel.png" style="max-width:100%;height:0 auto;" />
+                </div>
+                        <div class="container-fluid container-articles">
+                            <div class="row articles">
+                                <div class="col-xs-12 col-sm-12 col-md-12 article-img">
+                                    <a href="#"><img src="images/img/articles/09.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/01.jpg" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/10.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/circle/star-main.png" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/06.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/02.jpg" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/07.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <div class="article-overlay" data-bind="dxAction: '#star'"></div>
+                                </div>
+                                <div class="col-md-12 article-img">
+                                    <a href="#"><img src="images/img/articles/11.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/04.jpg" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/12.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/circle/inq-main.png" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/13.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/05.jpg" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/14.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <div class="article-overlay" data-bind="dxAction: '#inquirer'"></div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 article-img">
+                                    <a href="#"><img src="images/img/articles/15.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/16.jpg" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/17.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/circle/cnn-main.png" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/36.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/19.jpg" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/20.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <div class="article-overlay" data-bind="dxAction: '#cnn'"></div>
+                                </div>
+                                <div class="col-md-12 article-img">
+                                    <a href="#"><img src="images/img/articles/02.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/23.jpg" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/24.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/circle/sinar-main.png" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/25.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/28.jpg" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/30.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <div class="article-overlay" data-bind="dxAction: '#sinar'"></div>
+                                </div>
+                                <div class="col-md-12 article-img">
+                                    <a href="#"><img src="images/img/articles/21.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/30.jpg" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/32.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/circle/utusan.png" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/36.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/26.jpg" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/35.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <div class="article-overlay" data-bind="dxAction: '#utusan'"></div>
+                                </div>
+                                <div class="col-md-12 article-img">
+                                    <a href="#"><img src="images/img/articles/04.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/06.jpg" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/12.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/circle/abs.png" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/22.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/09.jpg" style="max-width:15%;height:15%;  alt=" "></a>
+                                    <a href="#"><img src="images/img/articles/09.jpg" style="max-width:10%;height:10%;  alt=" "></a>
+                                    <div class="article-overlay" data-bind="dxAction: '#inquirer'"></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <!--  <div id="green-line">
+            <div class="gallery" data-bind="dxGallery: { width: '50%', height: '40%', dataSource: data, showNavButtons: true }">
+                <div data-options="dxTemplate : { name: 'item' } ">
+                    <div class="gallery-item">
+                        <img data-bind="attr: { src: src }" />
+                    </div>
+                </div>
+                <div data-options="dxTemplate : { name: 'item' } ">
+                    <div class="gallery-item">
+                        <img data-bind="attr: { src: src }" />
+                    </div>
+                </div>
+            </div>
+        </div>-->
+                    </div>
+            </div>
+        </div>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "NewsApp.Shared", "NewsApp.Shared\NewsApp.Shared.dxjsproj", "{E6D8D82E-F19F-40D2-9A16-12E12104D8BA}"
+EndProject
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "NewsApp.Desktop", "NewsApp.Desktop\NewsApp.Desktop.dxjsproj", "{C83C46A0-6DCC-4820-9D1A-3802BBF6DA90}"
+EndProject
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "NewsApp.Mobile", "NewsApp.Mobile\NewsApp.Mobile.dxjsproj", "{A97BB88F-0D0E-49AF-A05E-1ED66FEB8372}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6D8D82E-F19F-40D2-9A16-12E12104D8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D8D82E-F19F-40D2-9A16-12E12104D8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D8D82E-F19F-40D2-9A16-12E12104D8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D8D82E-F19F-40D2-9A16-12E12104D8BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83C46A0-6DCC-4820-9D1A-3802BBF6DA90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83C46A0-6DCC-4820-9D1A-3802BBF6DA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83C46A0-6DCC-4820-9D1A-3802BBF6DA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83C46A0-6DCC-4820-9D1A-3802BBF6DA90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97BB88F-0D0E-49AF-A05E-1ED66FEB8372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97BB88F-0D0E-49AF-A05E-1ED66FEB8372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97BB88F-0D0E-49AF-A05E-1ED66FEB8372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97BB88F-0D0E-49AF-A05E-1ED66FEB8372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

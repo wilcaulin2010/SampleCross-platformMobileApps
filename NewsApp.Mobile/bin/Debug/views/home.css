@@ -1,0 +1,90 @@
+﻿body
+{
+
+}
+
+.home-back img {
+  height: 100%;
+  width: 100%;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.home-back img:hover {
+    height: 0%;
+  width: 90%;
+  
+}
+
+/*#line2 {
+    background-color:#1dd2af;
+    padding:5%;
+}  */
+
+/* #green-line {
+    background-color:#0d8265;
+    color:white;
+    text-align:center;
+    padding:15%;
+} */
+
+#gtwo-line {
+    background-color:#e9d116;
+    padding:2px;
+} 
+
+.h2-wrap {
+    background-color: #3b433c;
+    padding: 5px;
+    text-align:left;
+
+}
+
+.standard-block {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400 !important;
+}
+.articles {
+    overflow: hidden;
+}
+.container-fluid {
+    padding-left: 18px;
+    padding-right: 10px;
+}
+.article-img img {
+    width: 100%;
+}
+.article-img {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.article-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: #000;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    cursor: pointer;
+}
+.article-overlay:hover {
+    opacity: 0;
+
+}
+
+
+#gtwo-line2 {
+    background-color:#e9d116;
+    padding:6px;
+} 
+
+

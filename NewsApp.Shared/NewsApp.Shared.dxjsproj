@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>e6d8d82e-f19f-40d2-9a16-12e12104d8ba</ProjectGuid>
+    <AutoAssignPort>True</AutoAssignPort>
+    <RunInSimulator>True</RunInSimulator>
+    <ApplicationPage>app.html</ApplicationPage>
+    <Name>Shared</Name>
+    <RootNamespace>NewsApp</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\bootstrap.min.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\styles.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="data\db.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\circle\abs.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\circle\cnn-main.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\circle\inq-main.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\circle\sinar-main.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\circle\star-main.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\circle\utusan.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\home.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\HomeGallery\bbc.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\HomeGallery\cnn.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\HomeGallery\inquirer.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\HomeGallery\star.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\01.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\02.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\03.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\04.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\05.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\06.JPG">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\07.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\08.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\09.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\10.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\11.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\12.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\13.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\14.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\15.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\16.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\17.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\19.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\20.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\21.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\22.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\23.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\24.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\25.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\26.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\27.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\28.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\29.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\30.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\31.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\32.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\33.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\34.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\35.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\img\articles\36.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\logo.png" />
+    <Content Include="images\pic01.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\sports\01.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\sports\02.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\sports\03.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\sports\04.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\sports\05.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\sports\06.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\sports\07.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\sports\08.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\sports\09.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\sports\10.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\sports\11.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\sports\13.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\sports\14.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="images\yel.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\bootstrap.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\bootstrap.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\dx.all.js" />
+    <Content Include="js\dx.all.debug.js" />
+    <Content Include="js\localization\dx.all.de.js" />
+    <Content Include="js\localization\dx.all.ja.js" />
+    <Content Include="js\localization\dx.all.ru.js" />
+    <Content Include="js\globalize.min.js" />
+    <Content Include="js\jquery-1.10.2.min.js" />
+    <Content Include="js\jquery-2.0.3.min.js" />
+    <Content Include="js\knockout-3.0.0.js" />
+    <Content Include="css\dx.common.css" />
+    <Content Include="css\dx.desktop.default.css" />
+    <Content Include="css\dx.android.holo-dark.css" />
+    <Content Include="css\dx.android.holo-light.css" />
+    <Content Include="css\dx.ios.default.css" />
+    <Content Include="css\dx.win8.black.css" />
+    <Content Include="css\dx.win8.white.css" />
+    <Content Include="css\dx.tizen.black.css" />
+    <Content Include="css\dx.tizen.white.css" />
+    <Content Include="css\dx.generic.light.css" />
+    <Content Include="js\snowstorm-min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\snowstorm.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="newsapp.shared.config.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\about.html" />
+    <Content Include="views\bbc.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\bbc.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\bbc.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\cnn.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\cnn.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\cnn.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\home.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\home.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\home.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\inquirer.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\inquirer.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\inquirer.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\sinar.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\sinar.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\sinar.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\star-sports1.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\star-sports1.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\star.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\star.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\star.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\utusan.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\utusan.dxview">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\utusan.js">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="data\" />
+    <Folder Include="images\" />
+    <Folder Include="images\HomeGallery" />
+    <Folder Include="images\img" />
+    <Folder Include="images\img\articles" />
+    <Folder Include="images\circle" />
+    <Folder Include="images\highlights" />
+    <Folder Include="images\business" />
+    <Folder Include="images\sports" />
+    <Folder Include="js\" />
+    <Folder Include="js\localization\" />
+    <Folder Include="icons" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <Target Name="ResolveReferences">
+    <Message Text="Copying references to output dir..." Importance="high" />
+    <MSBuild Targets="Build" Projects="@(ProjectReference)" Properties="OutputPath=$([System.IO.Path]::GetFullPath('$(OutputPath)'))">
+    </MSBuild>
+  </Target>
+  <Target Name="CopyFilesToOutputDirectory">
+    <Message Text="Copying files to output dir..." Importance="high" />
+    <Copy SourceFiles="@(Content)" DestinationFiles="@(Content->'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(GeneratedJavascript->'%(Identity)')" DestinationFiles="@(GeneratedJavascript-&gt;'%(Identity)'-&gt;'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+  </Target>
+  <Target Name="CoreCompile">
+    <!--<Message Text="'$(MSBuildToolsPath)'"></Message>-->
+    <!--<Message Text="'$(BuildingProject)'"></Message>-->
+    <!--<Message Text="Build JSProject '$(MSBuildProjectFile)':" Importance="high"></Message>-->
+    <!--<Message Text="Finished Build JSProject '$(MSBuildProjectFile)'." Importance="high"></Message>-->
+  </Target>
+  <Target Name="CreateManifestResourceNames" Condition="'@(ResxWithNoCulture)@(ResxWithCulture)@(NonResxWithNoCulture)@(NonResxWithCulture)'!=''" />
+  <Target Name="Clean">
+    <!--
+    <Message Text="Cleaning Output files..." Importance="high" />
+    <Delete Files="@([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+    -->
+    <Message Text="Cleaning Output dir ($([System.IO.Path]::GetFullPath('$(OutputPath)')))..." Importance="high" />
+    <RemoveDir Directories="$([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+  </Target>
+</Project>

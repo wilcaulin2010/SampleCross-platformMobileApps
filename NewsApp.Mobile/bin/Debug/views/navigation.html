@@ -1,0 +1,17 @@
+﻿<div data-options="dxView : { name: 'Navigation', title: 'Welcome' } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div class="navigation-list" data-bind="dxList: { }" style="height: 100%" data-options="dxCommandContainer : { locations: [{'name':'navigation'}] } " >
+            <div data-bind="visible: visible, css: { 'dx-state-disabled': disabled }" data-options="dxTemplate : { name: 'item' } " >
+                <div data-bind="click: clickAction">
+                    <!-- ko if: icon -->
+                    <span  data-bind="attr:{ 'class': 'dx-icon dx-icon-' + icon }"></span>
+                    <!-- /ko -->
+                    <!-- ko if: iconSrc -->
+                    <img class="dx-icon" data-bind="attr: { src: iconSrc}" />
+                    <!-- /ko -->
+                    <div class="dx-navigation-item" data-bind="text: title"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
